@@ -62,30 +62,7 @@ h1 {
   color: white;
 }
 
-@media (max-width: 1440px) {
-.titleImage {
-  transform: rotate(0);
-  position: static;
-}
-.container-fluid {
-  text-align: center;
-}
-h2 {
-  font-size: medium;
-  line-height: 1;
-}
 
-}
-
-@media (max-width: 575px) {
-  h1 {
-    font-weight: 400;
-    font-size: 3rem;
-    line-height: 1;
-    position: relative;
-    z-index: 1;
-  }
-}
 
 /* features */
 h3 {
@@ -270,4 +247,28 @@ h2 {
 @font-face {
   font-family: 'Kanit', regular;
   font-weight: 400;
+}
+
+@media (max-width: 1440px) {
+.titleImage {
+  transform: rotate(0);
+  position: static;
+}
+.container-fluid {
+  text-align: center;
+}
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+  }
+  h2 {
+    font-size: 1rem;
+    line-height: 1;
+  }
 }
