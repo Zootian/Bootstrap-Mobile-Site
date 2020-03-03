@@ -257,6 +257,10 @@ h2 {
 .container-fluid {
   text-align: center;
 }
+h2 {
+  font-size: 1rem;
+  line-height: 1;
+}
 }
 
 @media (max-width: 575px) {
@@ -266,9 +270,5 @@ h2 {
     line-height: 1;
     position: relative;
     z-index: 1;
-  }
-  h2 {
-    font-size: 1rem;
-    line-height: 1;
   }
 }
