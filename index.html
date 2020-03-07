@@ -9,13 +9,13 @@
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Caveat|Fredoka+One|Knewave|Acme|Kanit&display=swap" rel="stylesheet">
 
-<!-- Bootstrap link -->
+  <!-- Bootstrap link -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<!-- Custom CSS -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css">
 
-<!-- Favicon -->
+  <!-- Favicon -->
   <link rel="icon" href="images/favicon (2).ico">
 
   <!-- Font Awesome for Icons -->
@@ -23,38 +23,38 @@
 </head>
 
 <body>
-  <div class="">
+  <!-- Nav Bar -->
+  <section class="light-section" id="navbar-section">
 
-  <section id="title">
-
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-md navbar-light">
-        <a href="" class="navbar-brand">Raven's Cravin's</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="" class="nav-link">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Sign Up</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Testimonials</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-<div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a href="" class="navbar-brand">Raven's Cravin's</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Testimonials</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <section class="dark-section" id="title">
+    <div class="container-fluid">
 
 
       <!-- Title -->
       <div class="row">
         <div class="col-md-6">
-          <h1>Fresh, homemade dog food; delivered.</h1>
-          <button type="button" class="signUpButton btn btn-outline-light btn-lg"><i class="far fa-clipboard"></i>  Sign Us Up!</button>
+          <h1 class="big-heading">Fresh, homemade dog food; delivered.</h1>
+          <button type="button" class="signUpButton btn btn-outline-light btn-lg"><i class="far fa-clipboard"></i> Sign Us Up!</button>
         </div>
         <div class="col-md-6">
           <img class="titleImage" src="images/kissclipart-dog-logo-glasses.png" alt="Raven's Cravin's Logo - mockup">
@@ -66,22 +66,25 @@
 
   <!-- Features -->
 
-  <section id="features">
-    <div class="row">
-      <div class="col-md-4">
-        <i class="quality fas fa-check-double fa-4x"></i>
-        <h3>Quality Ingredients</h3>
-        <p class="description">We use only the best, locally sourced ingredients: Halal chicken and organic carrots, peas, sweet potatoes, and pinto beans.</p>
-      </div>
-      <div class="col-md-4">
-        <img class="proB" src="images/virus.png" alt="Icons made by Darius Dan Flaticon https://www.flaticon.com/authors/darius-dan">
-        <h3>Wholesome Nutrition</h3>
-        <p class="description">Naturally found in fresh ingredients, <em>probiotics</em> are an integral part of a healthy digestive tract. <a href="https://www.petmd.com/dog/general-health/probiotics-dogs-what-you-need-know">Studies</a> have shown that probiotics can improve and even <em>extend</em> the lifespan of your four-legged friend.</p>
-      </div>
-      <div class="col-md-4">
-        <i class="delivery fas fa-shipping-fast fa-4x"></i>
-        <h3>Conveniently Delivered</h3>
-        <p class="description">Every 2 weeks, I'll personally bring your customized subscription to your door.</p>
+  <section class="light-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <i class="quality fas fa-check-double fa-4x"></i>
+          <h3 class="features-heading">Quality Ingredients</h3>
+          <p class="description">We use only the best, locally sourced ingredients: Halal chicken and organic carrots, peas, sweet potatoes, and pinto beans.</p>
+        </div>
+        <div class="col-md-4">
+          <img class="proB" src="images/virus.png" alt="Icons made by Darius Dan Flaticon https://www.flaticon.com/authors/darius-dan">
+          <h3 class="features-heading">Wholesome Nutrition</h3>
+          <p class="description">Naturally found in fresh ingredients, <em>probiotics</em> are an integral part of a healthy digestive tract. <a href="https://www.petmd.com/dog/general-health/probiotics-dogs-what-you-need-know">Studies</a> have shown
+            that probiotics can improve and even <em>extend</em> the lifespan of your four-legged friend.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="delivery fas fa-shipping-fast fa-4x"></i>
+          <h3 class="features-heading">Conveniently Delivered</h3>
+          <p class="description">Every 2 weeks, I'll personally bring your customized subscription to your door.</p>
+        </div>
       </div>
     </div>
 
@@ -91,34 +94,34 @@
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section class="dark-section" id="testimonials">
     <div id="testimonials-carousel" class="carousel slide" data-ride="carousel" data-interval="3500" data-pause="hover">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <h2>The best thing since Scooby Snacks.</h2>
-        <img class= "testimPic" src="images/dog-img.jpg" alt="dog-profile">
-        <em>Pebbles, New York</em>
+      <div class="carousel-inner">
+        <div class="carousel-item container-fluid active">
+          <h2 class="testimonial-text">The best thing since Scooby Snacks.</h2>
+          <img class="testimPic" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I know it's for my dog, but I eat it too. It's just that good!</h2>
+          <img class="testimPic" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2class="testimonial-text">Paws down the best meal ever; I lick my bowl clean every time.</h2>
+            <img class="testimPic" src="images/dog-img.jpg" alt="dog-profile">
+            <em>Walnut, Florida</em>
+        </div>
       </div>
-      <div class="carousel-item">
-        <h2 class="testimonial-text">I know it's for my dog, but I eat it too. It's just that good!</h2>
-        <img class= "testimPic" src="images/lady-img.jpg" alt="lady-profile">
-        <em>Beverly, Illinois</em>
-      </div>
-      <div class="carousel-item">
-        <h2>Paws down the best meal ever; I lick my bowl clean every time.</h2>
-        <img class= "testimPic" src="images/dog-img.jpg" alt="dog-profile">
-        <em>Walnut, Florida</em>
-      </div>
+      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
 
 
 
@@ -128,89 +131,90 @@
 
   <!-- Press -->
 
-  <section id="press">
+  <section class="dark-section" id="press">
     <img class="press-logo" src="images/TechCrunch.png" alt="tc-logo">
     <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
     <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
     <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-
   </section>
 
 
   <!-- Pricing -->
 
-  <section id="pricing">
-    <div class="pricing-header">
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for you and your dog.</p>
-</div>
-  <div class="row">
-    <div class="col-lg-4 col-md-6">
-<div class="card">
-  <div class="card-header">
-    <h3>Free Sample</h3>
-  </div>
-  <div class="card-body">
-    <h2>Free</h2>
-    <p>24oz of Fresh Food</p>
-    <p>No Card Required</p>
-    <p>Try us out, today!</p>
-    <button class="card-btn btn btn-light btn-lg" type="button">Let's Do it!</button>
-  </div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6">
-<div class="card">
-  <div class="card-header">
-    <h3>Silver Pupscription</h3>
-  </div>
-  <div class="card-body">
-    <h2><span style="font-size: small; display: block;">As low as</span> $5/box per month</h2>
-    <p>Most Pawpular Option!</p>
-    <p>Delivered Weekly or Bi-Weekly</p>
-    <p>Modifiable at any time</p>
-    <button class="card-btn btn btn-outline-light btn-lg" type="button">Sign Us Up!</button>
-  </div>
-</div>
-</div>
-<div class="col-lg-4 col-md">
-<div class="card">
-  <div class="card-header">
-    <h3>Wholesale</h3>
-  </div>
-  <div class="card-body">
-    <h2>Negotiable</h2>
-    <p>Pet store looking to support local?</p>
-    <p>School Club looking for fundraisers?</p>
-    <p>We are always looking for brand partners!</p>
-    <button class="card-btn btn btn-outline-light btn-lg" type="button">Inquire Within</button>
-  </div>
-</div>
-</div>
-</div>
+  <section class="light-section" id="pricing">
+    <div class="container-fluid">
+      <div class="pricing-header">
+        <h2 class="price-text-large">A Plan for Every Dog's Needs</h2>
+        <p>Simple and affordable price plans for you and your dog.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="price-option-heading">Free Sample</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text-large">Free</h2>
+              <p>24oz of Fresh Food</p>
+              <p>No Card Required</p>
+              <p>Try us out, today!</p>
+              <button class="card-btn btn btn-light btn-lg" type="button">Let's Do it!</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="price-option-heading">Silver Pupscription</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text-large"><span class="price-span-small" style="font-size: small; display: block;">As low as</span> $5/box per month</h2>
+              <p>Most Pawpular Option!</p>
+              <p>Delivered Weekly or Bi-Weekly</p>
+              <p>Modifiable at any time</p>
+              <button class="card-btn btn btn-outline-light btn-lg" type="button">Sign Us Up!</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="price-option-heading">Wholesale</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text-large">Negotiable</h2>
+              <p>Pet store looking to support local?</p>
+              <p>School Club looking for fundraisers?</p>
+              <p>We are always looking for brand partners!</p>
+              <button class="card-btn btn btn-outline-light btn-lg" type="button">Inquire Within</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 
   <!-- Call to Action -->
 
-  <section id="cta">
-
-    <h3>Start a healthier diet for your dog today.</h3>
-    <button type="button" class="footerSignUp btn btn-outline-light btn-lg"><i class="far fa-clipboard"></i>  Sign Us Up!</button>
-
+  <section class="dark-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="big-heading">Start a healthier diet for your dog today.</h3>
+      <button type="button" class="footerSignUp btn btn-outline-light btn-lg"><i class="far fa-clipboard"></i> Sign Us Up!</button>
+    </div>
   </section>
 
 
   <!-- Footer -->
 
-  <footer id="footer">
-    <a class="footerIcon fab fa-facebook-square fa-2x" href="https://www.facebook.com/ravenscravinsllc/"></a>
-    <a class="footerIcon fab fa-instagram fa-2x" href="https://www.instagram.com/ravenscravins/"></a>
-    <a class="footerIcon far fa-envelope fa-2x" href="mailto:ewicinski@hotmail.com?subject=Raven's Cravin's Inquiry"></a>
-    <p class="copyright">© Copyright 2020 Raven's Cravin's</p>
-
+  <footer class="light-section" id="footer">
+    <div class="container-fluid">
+      <a class="footerIcon fab fa-facebook-square fa-2x" href="https://www.facebook.com/ravenscravinsllc/"></a>
+      <a class="footerIcon fab fa-instagram fa-2x" href="https://www.instagram.com/ravenscravins/"></a>
+      <a class="footerIcon far fa-envelope fa-2x" href="mailto:ewicinski@hotmail.com?subject=Raven's Cravin's Inquiry"></a>
+      <p class="copyright">© Copyright 2020 Raven's Cravin's</p>
+    </div>
   </footer>
-</div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

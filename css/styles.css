@@ -1,38 +1,39 @@
-body {
-  font-family: Kanit,sans-serif;
-}
 /* Fixes white space on right side; go figure. */
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
-
-h1 {
-  font-weight: 400;
-  font-size: 4.5rem;
-  line-height: 1.5;
-  position: relative;
-  z-index: 1;
+html, body {
+  font-family: Kanit, sans-serif;
+  height: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
 }
 
 .container-fluid {
-  padding: 3% 15%;
-  text-align: right;
+  padding: 7% 15%;
 }
 
+#title .container-fluid {
+  padding: 3% 15%;
+}
+
+.light-section {
+  background-color: #FDFD96;
+  color: black;
+}
+
+.dark-section {
+  background-color: #9FC5F8;
+  color: white;
+}
 
 /* Nav Bar */
 .navbar {
-  background-color: #FDFD96;
   font-size: 1rem;
 }
 
 .navbar-brand {
-  font-family: Caveat,sans-serif;
+  font-family: Caveat, sans-serif;
   font-size: 2rem;
 }
 
@@ -42,11 +43,17 @@ h1 {
 
 /* Sign Up Button */
 .signUpButton {
-  margin: 5% 3% 5% 0%
-
+  margin: 5% 3% 5% 0;
 }
 
 /* Title */
+.big-heading {
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 1.5;
+  position: relative;
+  z-index: 1;
+}
 
 .titleImage {
   border-radius: 100%;
@@ -58,18 +65,10 @@ h1 {
 }
 
 #title {
-  background-color: #9FC5F8;
-  color: white;
+  text-align: right;
 }
-
-
 
 /* features */
-h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 .delivery {
   background-color: black;
   border-radius: 100%;
@@ -77,25 +76,19 @@ h3 {
   margin: 15% 0 5%;
   padding: 3%;
 }
+
 .delivery:hover {
   background-color: #9FC5F8;
 }
 
 .description {
   width: 80%;
-  text-align: center;
   margin: auto;
-  padding-bottom: 10%;
 }
-.quality {
-  background-color: black;
-  border-radius: 100%;
-  color: #FDFD96;
-  margin: 15% 0 5%;
-  padding: 3%;
-}
-.quality:hover {
-  background-color: #9FC5F8;
+
+.features-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .proB {
@@ -104,19 +97,30 @@ h3 {
   margin: 8% 0 0;
   padding: 3%;
 }
+
 .proB:hover {
   background-color: #9FC5F8;
 }
 
-#features {
-  background-color: #FDFD96;
-  color: black;
-  text-align: center;
+.quality {
+  background-color: black;
+  border-radius: 100%;
+  color: #FDFD96;
+  margin: 15% 0 5%;
+  padding: 3%;
+}
+
+.quality:hover {
+  background-color: #9FC5F8;
 }
 
 /* Testimonials */
+.press-logo {
+  width: 15%;
+  margin: 3% 3% 6%;
+}
 
-h2 {
+.testimonial-text {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.5;
@@ -125,27 +129,13 @@ h2 {
   margin: auto;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 3% 3% 6%;
-}
-
 .testimPic {
   border-radius: 100%;
   width: 10%;
   margin: 3%;
 }
 
-#press {
-  background-color: #9FC5F8;
-   text-align: center;
-   padding-bottom: 3%;
-}
-
+/* Pricing */
 .card {
   background-color: black;
   color: white;
@@ -161,29 +151,26 @@ h2 {
   background-color: gray;
 }
 
+.price-option-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.price-text-large {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding-top: 5%;
+  width: 80%;
+  margin: auto;
+}
+
 .pricing-header {
   margin-bottom: 5%;
 }
 
-#pricing {
-  text-align: center;
-  background-color: #FDFD96;
-  padding: 5%;
-}
-
-#testimonials {
-  background-color: #9FC5F8;
-  color: white;
-  text-align: center;
-}
-
-/* CTA */
-
-#cta {
-  background-color: #9FC5F8;
-  color: white;
-  text-align: center;
-  padding-top: 5%;
+#press {
+  padding-bottom: 3%;
 }
 
 /* Footer */
@@ -208,12 +195,8 @@ h2 {
 }
 
 #footer {
-  text-align: center;
-  background-color: #FDFD96;
-  padding: 5%;
   margin: auto;
 }
-
 
 /* @font-face {
   font-family: 'Knewave', regular;
@@ -223,7 +206,6 @@ h2 {
   font-family: 'Bowlby One SC', regular;
   font-weight: 400;
 } */
-
 @font-face {
   font-family: 'Caveat', regular;
   font-weight: 400;
@@ -234,7 +216,7 @@ h2 {
   font-weight: 700;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Fredoka One', regular;
   font-weight: 400;
 }
@@ -242,31 +224,33 @@ h2 {
 @font-face {
   font-family: 'Acme', regular;
   font-weight: 400;
-}
-
+} */
 @font-face {
   font-family: 'Kanit', regular;
   font-weight: 400;
 }
 
+/* Custom media queries */
 @media (max-width: 1440px) {
-.titleImage {
-  transform: rotate(0);
-  position: static;
-}
-.container-fluid {
-  text-align: center;
-}
+  .titleImage {
+    transform: rotate(0);
+    position: static;
+  }
+
+  .container-fluid {
+    text-align: center;
+  }
 }
 
 @media (max-width: 575px) {
-  h1 {
+  .big-heading {
     font-weight: 400;
     font-size: 3rem;
     line-height: 1;
     position: relative;
     z-index: 1;
   }
+
   h2 {
     font-size: 1rem;
     line-height: 1;
