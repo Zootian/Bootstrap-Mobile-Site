@@ -56,8 +56,11 @@ html, body {
 }
 
 .titleImage {
+  border-style: solid;
+  border-color: white;
+  border-width: 25px;
   border-radius: 100%;
-  width: 80%;
+  width: 125%;
   transform: rotate(30deg);
   position: relative;
   z-index: 0;
@@ -233,8 +236,10 @@ html, body {
 /* Custom media queries */
 @media (max-width: 1440px) {
   .titleImage {
+    width: 80%;
     transform: rotate(0);
     position: static;
+    border-width: 10px;
   }
 
   .container-fluid {
